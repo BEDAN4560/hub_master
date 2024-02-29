@@ -4,7 +4,7 @@ Test Hub is web application that enables students to take multiple answered ques
 ***
 ## Author 
 
-**Bukosia Ebenezar**
+**bedan korir**
 ***
 
 ## Screenshots
@@ -91,7 +91,7 @@ The project root folder contains two files, main **index.html** and **README.md*
 
 ***
 ## Copyright
- Copyright(c)[2022][Bukosia Ebenezar]
+ Copyright(c)[2022 bedan korir]
 
 ***
 ## Licence
