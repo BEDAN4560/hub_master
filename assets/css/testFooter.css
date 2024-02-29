@@ -1,0 +1,122 @@
+/*Test page footer styling*/
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+/*footer wrapper*/
+footer{
+    position: fixed;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height:28vh;
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    color:white;
+    background-color: #074F62;
+    text-align: center;
+    
+}
+/*logo*/
+footer strong{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    color:#FFAC12;
+}
+/*copyright icon*/
+footer i{
+    font-size: 2.5em;
+    margin-right: 0.2em;
+    color:#FFAC12;
+
+}
+/* logo name */
+.brand h4{
+    font-size:1em;
+    margin:0;
+    
+}
+hr{
+    width: 80%;
+    color:#fff;
+    
+}
+/*copyright link*/
+.copyright a{
+    text-decoration:none;
+    color:#fff;
+    font-weight: 300;
+
+}
+.copyright a:hover{
+    color:#FFAC12;
+
+}
+.footerNav ul{
+    height:auto;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap:9em;
+    margin: 1em 0;
+   
+}
+.footerNav a{
+    color:#fff;
+
+}
+.footerNav a:hover{
+    color:#FFAC12;
+    transform: scale(1,2);
+}
+
+/*media query*/
+@media screen and (max-width: 768px) {
+    main{
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+    }
+    footer{
+        height: 31vh;
+        width:100%;
+        margin:0;
+        padding: 0;
+    }
+    footer strong{
+        font-size: 2em;
+        
+      
+    }
+    /*footer icons*/
+    footer i{
+        font-size: 2.5em;
+        margin-right: 0.3em;
+    }
+    .brand h4{
+        font-size:0.8em;
+        font-weight: 300;
+        margin:0;
+        
+    }
+
+    .copyright a{
+        font-weight: 100;
+    
+    }
+
+    .footerNav ul{
+        gap:2em;
+        margin: 1em 0;
+       
+    }
+    hr{
+        margin: 0 auto;
+    }
+
+}
